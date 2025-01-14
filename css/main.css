@@ -38,7 +38,7 @@
   20. FOOTER SECTION
   21. SINGLE PAGE
   22. EXTRA PAGES
-    -22.1 COMING SOON PAGE
+  23. COMING SOON PAGE
   ------------------------------------- */
 /* ==========================================================================
    1. IMPORT GOOGLE FONTS
@@ -1525,4 +1525,115 @@ footer {
 }
 .post-meta ul li a:hover {
   color: #4676fa;
+}
+
+/*===== COMING SOON ONE =====*/
+.coming-soon-one {
+  height: 700px;
+}
+.coming-soon-one .coming-soon-content .countdown ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.coming-soon-one .coming-soon-content .countdown ul li {
+  padding: 0 45px;
+  text-align: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .coming-soon-one .coming-soon-content .countdown ul li {
+    padding: 0px 30px;
+  }
+}
+@media (max-width: 767px) {
+  .coming-soon-one .coming-soon-content .countdown ul li {
+    padding: 0 10px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .coming-soon-one .coming-soon-content .countdown ul li {
+    padding: 0 15px;
+  }
+}
+.coming-soon-one .coming-soon-content .countdown ul li .count {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #fff;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+  .coming-soon-one .coming-soon-content .countdown ul li .count {
+    font-size: 55px;
+  }
+}
+@media (max-width: 767px) {
+  .coming-soon-one .coming-soon-content .countdown ul li .count {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .coming-soon-one .coming-soon-content .countdown ul li .count {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+.coming-soon-one .coming-soon-content .countdown ul li .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #fff;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+  .coming-soon-one .coming-soon-content .countdown ul li .text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .coming-soon-one .coming-soon-content .countdown ul li .text {
+    font-size: 14px;
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .coming-soon-one .coming-soon-content .countdown ul li .text {
+    font-size: 18px;
+    margin-top: 0;
+  }
+}
+.coming-soon-one .coming-soon-content .coming-soon-title {
+  font-size: 72px;
+  color: #fff;
+  line-height: 85px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .coming-soon-one .coming-soon-content .coming-soon-title {
+    font-size: 38px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 767px) {
+  .coming-soon-one .coming-soon-content .coming-soon-title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+.coming-soon-one .coming-soon-content .coming-soon-btn {
+  padding-top: 20px;
+}
+.coming-soon-one .coming-soon-content .coming-soon-btn ul li {
+  display: inline-block;
+  margin-left: 18px;
+  margin-top: 20px;
+}
+@media (max-width: 767px) {
+  .coming-soon-one .coming-soon-content .coming-soon-btn ul li {
+    margin-left: 0;
+  }
+}
+.coming-soon-one .coming-soon-content .coming-soon-btn ul li:first-child {
+  margin-left: 0;
 }
