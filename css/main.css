@@ -629,7 +629,8 @@ button:focus {
    ========================================================================== */
 #video-area {
   overflow: hidden;
-  position: relative;
+  position: relative
+  height: 1100px;
 }
 #video-area .contents {
   padding: 160px 0 80px;
